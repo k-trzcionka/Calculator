@@ -48,12 +48,12 @@ namespace Calculator
         }
         public string IsNumberEven()
         {
-            string even;
+            string isEven;
             if (Num1 % 2 == 0)
             {
-                even = "Podana liczba jest parzysta";
-            } else even = "Podana liczba jest parzysta";
-            return even;
+                isEven = "Podana liczba jest parzysta";
+            } else isEven = "Podana liczba jest nieparzysta";
+            return isEven;
         }
     }
 }
